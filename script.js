@@ -5,7 +5,7 @@ let changeName =() =>
  	$(document.getElementsByClassName('details')[0]).append("<input type='text' id='makeTxt1'/>");
  	$(document.getElementsByTagName('button')[0]).hide();
  	$(document.getElementsByClassName('details')[0]).append("<input type='button' id='makeBtn1' class='btn btn-dark pull-right' value ='update'/>");
-
+ 	$('#makeTxt1').val($(document.getElementsByTagName('span')[0]).text());
 
  	// $(document).on('click','#makeBtn1',()=>
  	// {
@@ -31,6 +31,7 @@ let changeSurname =() =>
  	$(document.getElementsByClassName('details')[1]).append("<input type='text' id='makeTxt2'/>");
  	$(document.getElementsByTagName('button')[1]).hide();
  	$(document.getElementsByClassName('details')[1]).append("<input type='button' id='makeBtn2' class='btn btn-dark pull-right' value ='update'/>");
+ 	$('#makeTxt2').val($(document.getElementsByTagName('span')[1]).text());
 
 
  	// $(document).on('click','#makeBtn1',()=>
@@ -57,6 +58,7 @@ let changeEmail =() =>
  	$(document.getElementsByClassName('details')[2]).append("<input type='text' id='makeTxt3'/>");
  	$(document.getElementsByTagName('button')[2]).hide();
  	$(document.getElementsByClassName('details')[2]).append("<input type='button' id='makeBtn3' class='btn btn-dark pull-right' value ='update'/>");
+ 	$('#makeTxt3').val($(document.getElementsByTagName('span')[2]).text());
 
 
  	// $(document).on('click','#makeBtn1',()=>
@@ -83,6 +85,7 @@ let changeDate =() =>
  	$(document.getElementsByClassName('details')[3]).append("<input type='text' id='makeTxt4'/>");
  	$(document.getElementsByTagName('button')[3]).hide();
  	$(document.getElementsByClassName('details')[3]).append("<input type='button' id='makeBtn4' class='btn btn-dark pull-right' value ='update'/>");
+ 	$('#makeTxt4').val($(document.getElementsByTagName('span')[3]).text());
 
 
  	// $(document).on('click','#makeBtn1',()=>
@@ -101,4 +104,3 @@ let changeDate =() =>
  	})
  	
 }
-
